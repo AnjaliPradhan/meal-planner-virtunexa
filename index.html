@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meal Planner App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Smart Meal Planner 🌟</h1>
+  </header>
+
+  <section class="filters-box">
+    <div class="filter">
+      <h3>Dietary Preference</h3>
+      <select id="diet">
+        <option value="all">All</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="gluten-free">Gluten-Free</option>
+      </select>
+    </div>
+
+    <div class="filter">
+      <h3>Allergy Exclusion</h3>
+      <select id="allergy">
+        <option value="">None</option>
+        <option value="nuts">Nuts</option>
+        <option value="dairy">Dairy</option>
+        <option value="gluten">Gluten</option>
+      </select>
+    </div>
+
+    <div class="filter">
+      <button id="filterBtn" class="button">Apply Filters</button>
+    </div>
+  </section>
+
+  <main>
+    <section class="meals-section">
+      <h2>🍽️ Suggested Meals</h2>
+      <div id="meal-container" class="meal-boxes"></div>
+    </section>
+
+    <section class="shopping-section">
+      <h2>🛒 Shopping List</h2>
+      <ul id="shopping-list" class="shopping-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Contact Us</h2>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-instagram-square"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2025 Smart Meal Planner</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
