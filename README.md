@@ -1,4 +1,4 @@
-# Mine Meal planner - VIRTUNEXA : WEEK -2
+# VIRTUNEXA : WEEK -2 Mine Meal planner 
 -----
 
 Welcome to the Smart Meal Planner\! This web application helps you plan your meals based on dietary preferences and allergy exclusions, and it even generates a shopping list for you.
